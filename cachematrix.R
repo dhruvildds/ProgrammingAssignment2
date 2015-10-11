@@ -20,7 +20,7 @@ set<-function(y)
 {x<<-y
 i<<-NULL}
 get<- function() x
-setinv<-function (a) i<<-solve(a)
+setinv<-function (a) i<-a
 getinv<-function() i
 list(set = set, get = get,
      setinv = setinv,
